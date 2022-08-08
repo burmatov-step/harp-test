@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@here/harp-map-controls": "^0.28.0",
+    "@here/harp-mapview": "^0.28.0",
+    "@here/harp-omv-datasource": "^0.28.0",
+    "@here/harp-utils": "^0.28.0",
+    "@here/harp-vectortile-datasource": "^0.28.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "three": "^0.129.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "clearColor": "#87959A",
+    "styles": {
+        "tilezen": [
+            {
+                "when": [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ],
+                "technique": "fill",
+                "opacity": 0.5,
+                "color": "#525556"
+            },
+            {
+                "technique": "fill",
+                "when": [
+                    "all",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "$layer"
+                        ],
+                        "water"
+                    ]
+                ],
+                "color": "#555"
+            }
+        ]
+    }
+}
